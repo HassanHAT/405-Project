@@ -8,7 +8,7 @@ import Results from './components/Results';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL} >
 
       <div className="container">
         <main>
